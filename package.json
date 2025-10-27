@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Krypton867/backend-course-2025-4.git"
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Krypton867/backend-course-2025-4/issues"
   },
-  "homepage": "https://github.com/Krypton867/backend-course-2025-4#readme"
+  "homepage": "https://github.com/Krypton867/backend-course-2025-4#readme",
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
